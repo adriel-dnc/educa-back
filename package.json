@@ -2,8 +2,8 @@
   "name": "educa-back",
   "version": "1.0.0",
   "description": "Educa-Server",
+  "main": "index.js"
   "scripts": {
-    "start": "node index.js"
     "dev": "tsx watch src/server.ts",
     "lint": "eslint src --ext .ts --fix",
     "prod": "tsx src/server.ts"
